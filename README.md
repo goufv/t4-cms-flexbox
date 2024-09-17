@@ -1,5 +1,38 @@
-# t4-cms-flexbox
-Flexbox container and items for Terminal Four CMS
+# t4-Flex Container & Items
+
+Flexbox container and items for Terminal Four (t4) website content management system.
+
+Allows users to set up containers and add flex items to them.
+
+<a href="https://ct-457.netlify.app/demo.html" target="_blank" rel="noopener noreferrer">View of Advanced Flexbox Controls (static HTML demo)</a>
+
+
+## Status
+
+- In development, not production or test ready
+
+## Goals
+
+- Application-agnostic: ability to import to TEST or PROD applications
+- Utilize handlebars.js for conditionals as required
+- Direct edit (?)
+
+## Requirements
+
+- min version: 8.3.20 <a href="https://docs.terminalfour.com/release-notes/" target="_blank" rel="noopener noreferrer">View terminalfour releases</a>
+- <a href="https://docs.terminalfour.com/documentation/developer-resources/handlebars/" target="_blank">handlebars</a> enabled
+
+## Package content
+
+There are <b>2 content types</b> in this package:
+
+1. Flex Container
+2. Flex Item 
+
+Flex items are placed in sub-section(s) called 'flex-items'.
+
+
+
 
 
 ## Package content
@@ -37,12 +70,34 @@ The following properties are available for the flex container:
 
 ### Reference List
 
+(*) Selected
 
-| Property Name | Options |
-|---------------|---------|
-| ct_justifyContent | - flex-start<br>- flex-end<br>- center<br>- space-between<br>- space-around<br>- space-evenly |
-| ct_alignItems | - stretch<br>- flex-start<br>- flex-end<br>- center<br>- baseline |
-| ct_flexDirection | - row<br>- row-reverse<br>- column<br>- column-reverse |
-| ct_flexWrap | - nowrap<br>- wrap<br>- wrap-reverse |
-| ct_alignContent | - stretch<br>- flex-start<br>- flex-end<br>- center<br>- space-between<br>- space-around |
+| Property Name | Options | t4 List Name | ID
+|---------------|---------|---|---|
+| ct_justifyContent | - flex-start<br>- flex-end<br>- center<br>- space-between<br>- space-around<br>- space-evenly | flex_container_justifyContent
+| ct_alignItems | - stretch<br>- flex-start<br>- flex-end<br>- center<br>- baseline | flex_container_alignItems | 183
+| ct_flexDirection | - row (*)<br>- row-reverse<br>- column<br>- column-reverse | flex_container_flexDirection | 184
+| ct_flexWrap | - nowrap (*)<br>- wrap<br>- wrap-reverse | flex_container_flexWrap
+| ct_alignContent | - stretch (*)<br>- flex-start<br>- flex-end<br>- center<br>- space-between<br>- space-around | flex_container_alignContent
 
+
+
+## Flex Item
+
+
+| Property Name | Type | Description |
+|---------------|------|-------------|
+| ct_itemIcon | Reference List | Selects the icon to display for the flex item |
+| ct_itemTitle | Text | Sets the title text for the flex item |
+| ct_itemDescription | Textarea | Provides a description for the flex item |
+| ct_itemLinkText | Text | Sets the text for the item's link |
+| ct_itemLinkURL | Text | Specifies the URL for the item's link |
+| ct_itemFlexGrow | Number | Determines how much the item will grow relative to the rest of the flex items |
+| ct_itemFlexShrink | Number | Specifies how much the item will shrink relative to the rest of the flex items |
+| ct_itemFlexBasis | Text | Sets the initial main size of the flex item |
+
+
+
+## Questions
+
+Maintained by Anthony Lepki
