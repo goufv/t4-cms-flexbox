@@ -4,6 +4,23 @@ Flexbox container and items for Terminal Four (t4) website content management sy
 
 Allows users/editors to set up containers and add flex items to them.
 
+Here we see a content type with a 'flex container' (open) and a 'flex container close' content type.
+
+<img src="images/t4-flex-container.png" alt="t4 flexbox container" width="400">
+
+
+Within the flex container, we have multiple 'flex item' content types.
+
+<img src="images/t4-flex-items.png" alt="t4 flexbox items" width="400">
+
+This allows us to produce a layout like this based on options users select.
+
+<img src="images/t4-cms-flex-eample.png" alt="t4 flexbox items" width="400">
+
+
+
+## Tools
+
 <a href="https://ct-457.netlify.app/demo.html" target="_blank" rel="noopener noreferrer">View of Advanced Flexbox Controls (static HTML demo)</a>
 
 
