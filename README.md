@@ -1,8 +1,8 @@
-# t4-Flex Container & Items
+# Flexbox Container & Items for Terminal Four (t4) CMS
 
 Flexbox container and items for Terminal Four (t4) website content management system.
 
-Allows users to set up containers and add flex items to them.
+Allows users/editors to set up containers and add flex items to them.
 
 <a href="https://ct-457.netlify.app/demo.html" target="_blank" rel="noopener noreferrer">View of Advanced Flexbox Controls (static HTML demo)</a>
 
@@ -19,29 +19,38 @@ Allows users to set up containers and add flex items to them.
 
 ## Requirements
 
-- min version: 8.3.20 <a href="https://docs.terminalfour.com/release-notes/" target="_blank" rel="noopener noreferrer">View terminalfour releases</a>
+- min version: 8.3.20.1 <a href="https://docs.terminalfour.com/release-notes/" target="_blank" rel="noopener noreferrer">View terminalfour releases</a>
 - <a href="https://docs.terminalfour.com/documentation/developer-resources/handlebars/" target="_blank">handlebars</a> enabled
 
-## Package content
+## Package content (updated Oct 07, 2024)
 
-There are <b>2 content types</b> in this package:
+Complete package located at:
 
-1. Flex Container
-2. Flex Item 
+<a href="packages/t4CmsFlexbox.zip">t4CmsFlexbox.zip</a>
 
-Flex items are placed in sub-section(s) called 'flex-items'.
+### Content Types
+
+1. Flex Container (470)
+2. Flex-Container -- Close -- (472)
+2. Flex Item (471)
 
 
+### Lists for Flex Container
 
+<ol>
+<li>flex_container_justifyContent (182)
+<li>flex_container_alignItems (183)
+<li>flex_container_flexDirection (184)
+<li>flex_container_flexWrap (185)
+<li>flex_container_alignContent (186)
+</ol>
 
+### Lists for Flex Item
 
-## Package content
+<ol>
+<li>Flex Item Button Link (188)
+</ol>
 
-Content Type
-- Flex Container (470)
-
-Lists
-- flex_container_justifyContent (182)
 
 
 ## Flex Container
@@ -101,3 +110,4 @@ The following properties are available for the flex container:
 ## Questions
 
 Maintained by Anthony Lepki
+
